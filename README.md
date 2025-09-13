@@ -1,4 +1,4 @@
-special thank's to Odem2014 for the Aglare-FHD-CBL V 6.2
+special thank's to Odem2014 for the Aglare-FHD-CBL V 6.3
 
 
 Thank's @Lululla for image support 
