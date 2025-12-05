@@ -306,7 +306,7 @@ config.plugins.Aglare.E2iplayerskins = ConfigSelection(default='OFF', choices=[
 
 
 def Plugins(**kwargs):
-    return PluginDescriptor(name='CBL Skins V_6.3', description=_('Customization tool for Aglare-FHD-CBL Skin'), where=PluginDescriptor.WHERE_PLUGINMENU, icon='plugin.png', fnc=main)
+    return PluginDescriptor(name='CBL Skins', description=_('Customization tool for Aglare-FHD-CBL Skin'), where=PluginDescriptor.WHERE_PLUGINMENU, icon='plugin.png', fnc=main)
 
 
 def main(session, **kwargs):
@@ -902,3 +902,4 @@ class AglareUpdater(Screen):
             self.session.open(TryQuitMainloop, 3)
         else:
             self.close()
+
